@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-09T19:34:26.297Z",
+  "machine": "thoma-nova",
+  "machine_id": "56b2276c",
+  "project": "mindcontext-mgmt",
+  "progress": {
+    "source": "openspec",
+    "change": "add-progress-tracker",
+    "tasks_done": 34,
+    "tasks_total": 90
+  },
+  "context": {
+    "current_task": "Working on add-progress-tracker",
+    "status": "in_progress",
+    "notes": [],
+    "next": []
+  }
+}
