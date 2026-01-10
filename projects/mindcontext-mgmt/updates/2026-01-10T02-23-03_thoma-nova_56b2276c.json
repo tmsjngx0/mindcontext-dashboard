@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-10T02:23:03.476Z",
+  "machine": "thoma-nova",
+  "machine_id": "56b2276c",
+  "project": "mindcontext-mgmt",
+  "progress": {
+    "source": "openspec",
+    "change": "add-progress-tracker",
+    "tasks_done": 35,
+    "tasks_total": 90
+  },
+  "context": {
+    "current_task": "Working on add-progress-tracker",
+    "status": "in_progress",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "feat: add mc changelog command",
+    "feat: complete Phase 1 + 4 MVP - mc connect generates .claude/",
+    "chore: update mindcontext submodule with tests",
+    "feat: add progress tracker proposal and mindcontext submodule",
+    "chore: update mindcontext-core to v2.0.4"
+  ]
+}
