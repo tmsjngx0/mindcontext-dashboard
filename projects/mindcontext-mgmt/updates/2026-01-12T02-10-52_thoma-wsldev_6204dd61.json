@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-12T02:10:52.431Z",
+  "machine": "thoma-wsldev",
+  "machine_id": "6204dd61",
+  "project": "mindcontext-mgmt",
+  "progress": {
+    "source": "openspec",
+    "change": "add-progress-tracker",
+    "tasks_done": 46,
+    "tasks_total": 88
+  },
+  "context": {
+    "current_task": "Working on add-progress-tracker",
+    "status": "in_progress",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "docs: update session context for TDD integration work",
+    "feat(cli): Phase 2 migrate command + integration tests",
+    "chore: update mindcontext-core to v2.1.0",
+    "feat(hooks): add TDD workflow integration (v2.1.0)",
+    "feat(cli): implement config, cleanup, reset commands (TDD)"
+  ]
+}
