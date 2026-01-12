@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-12T02:51:14.346Z",
+  "machine": "thoma-wsldev",
+  "machine_id": "6204dd61",
+  "project": "mindcontext-core",
+  "progress": {
+    "source": "manual",
+    "tasks_done": 0,
+    "tasks_total": 0
+  },
+  "context": {
+    "status": "idle",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "feat(hooks): add TDD workflow integration (v2.1.0)",
+    "docs(commit): add NO AI attribution rule",
+    "fix(commands): implement update-context, prime-context, focus (v2.0.4)",
+    "feat(skill): scan and discover files in migrate-to-openspec (v2.0.3)",
+    "fix(skill): add dedicated PRD listing step in migrate-to-openspec (v2.0.2)"
+  ]
+}
