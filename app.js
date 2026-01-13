@@ -24,7 +24,7 @@ class Dashboard {
 
   async loadConfig() {
     try {
-      const response = await fetch('../config.json');
+      const response = await fetch('./config.json');
       this.config = await response.json();
       document.getElementById('title').textContent = this.config.title || 'MindContext Dashboard';
     } catch (e) {
@@ -53,7 +53,7 @@ class Dashboard {
     try {
       // In a real deployment, this would fetch from the GitHub API or a manifest file
       // For now, we'll try to load from a projects.json manifest
-      const response = await fetch('../projects/manifest.json');
+      const response = await fetch('./projects/manifest.json');
       const manifest = await response.json();
 
       for (const projectName of manifest.projects || []) {
@@ -71,7 +71,7 @@ class Dashboard {
   async loadProject(projectName) {
     try {
       // Try to load manifest first
-      const manifestResponse = await fetch(`../projects/${projectName}/updates/manifest.json`);
+      const manifestResponse = await fetch(`./projects/${projectName}/updates/manifest.json`);
       if (manifestResponse.ok) {
         const manifest = await manifestResponse.json();
         for (const filename of manifest.files || []) {
@@ -83,7 +83,7 @@ class Dashboard {
       }
 
       // Fallback: try to parse directory listing
-      const response = await fetch(`../projects/${projectName}/updates/`);
+      const response = await fetch(`./projects/${projectName}/updates/`);
       const text = await response.text();
       const files = text.match(/href="([^"]+\.json)"/g) || [];
 
@@ -98,7 +98,7 @@ class Dashboard {
 
   async loadUpdate(projectName, filename) {
     try {
-      const response = await fetch(`../projects/${projectName}/updates/${filename}`);
+      const response = await fetch(`./projects/${projectName}/updates/${filename}`);
       const update = await response.json();
 
       this.updates.push(update);
