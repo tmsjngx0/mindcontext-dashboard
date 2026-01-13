@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindContext Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1 id="title">MindContext Dashboard</h1>
+      <nav>
+        <button class="nav-btn active" data-view="overview">Overview</button>
+        <button class="nav-btn" data-view="kanban">Kanban</button>
+        <button class="nav-btn" data-view="timeline">Timeline</button>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle" title="Toggle dark mode">🌙</button>
+        <button id="refresh-btn" title="Refresh data">↻</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Overview View -->
+      <section id="overview" class="view active">
+        <div id="projects-grid" class="projects-grid">
+          <div class="loading">Loading projects...</div>
+        </div>
+      </section>
+
+      <!-- Kanban View -->
+      <section id="kanban" class="view">
+        <div class="kanban-controls">
+          <select id="kanban-project-filter">
+            <option value="all">All Projects</option>
+          </select>
+        </div>
+        <div id="kanban-board" class="kanban-board">
+          <div class="loading">Loading tasks...</div>
+        </div>
+      </section>
+
+      <!-- Timeline View -->
+      <section id="timeline" class="view">
+        <div class="timeline-controls">
+          <select id="timeline-project-filter">
+            <option value="all">All Projects</option>
+          </select>
+          <select id="timeline-machine-filter">
+            <option value="all">All Machines</option>
+          </select>
+        </div>
+        <div id="timeline-feed" class="timeline-feed">
+          <div class="loading">Loading activity...</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Last updated: <span id="last-updated">-</span></span>
+      <span id="stats"></span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

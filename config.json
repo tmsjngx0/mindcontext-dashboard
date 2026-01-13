@@ -1,0 +1,17 @@
+{
+  "title": "MindContext Dashboard",
+  "categories": {
+    "work": { "color": "#3b82f6", "label": "Work" },
+    "personal": { "color": "#10b981", "label": "Personal" },
+    "default": { "color": "#6b7280", "label": "Projects" }
+  },
+  "kanban": {
+    "columns": [
+      { "id": "backlog", "label": "Backlog", "statuses": ["proposed", "backlog"] },
+      { "id": "in_progress", "label": "In Progress", "statuses": ["in_progress", "active"] },
+      { "id": "review", "label": "Review", "statuses": ["review", "testing"] },
+      { "id": "done", "label": "Done", "statuses": ["done", "complete", "completed"] }
+    ]
+  },
+  "refresh_interval": 300000
+}
