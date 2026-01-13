@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-13T00:19:28.977Z",
+  "machine": "thoma-nova",
+  "machine_id": "56b2276c",
+  "project": "mindcontext",
+  "progress": {
+    "source": "manual",
+    "tasks_done": 0,
+    "tasks_total": 0
+  },
+  "context": {
+    "status": "idle",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "feat(templates): add prime/update commands, replace sync",
+    "feat(sync): support --notes and --next flags with multiline values",
+    "feat(cli): add migrate command for focus.json conversion",
+    "test(integration): add end-to-end CLI flow tests",
+    "feat(cli): add config, cleanup, and reset commands"
+  ]
+}
