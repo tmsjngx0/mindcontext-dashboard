@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-13T16:58:22.063Z",
+  "machine": "thoma-nova",
+  "machine_id": "56b2276c",
+  "project": "mindcontext",
+  "progress": {
+    "source": "manual",
+    "tasks_done": 0,
+    "tasks_total": 0
+  },
+  "context": {
+    "status": "idle",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "0.1.1",
+    "fix: update manifests on sync for dashboard discovery",
+    "chore: rename package to mindcontext-cli and update metadata",
+    "feat(templates): add prime/update commands, replace sync",
+    "feat(sync): support --notes and --next flags with multiline values"
+  ]
+}
