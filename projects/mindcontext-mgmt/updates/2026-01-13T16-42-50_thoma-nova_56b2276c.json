@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-01-13T16:42:50.095Z",
+  "machine": "thoma-nova",
+  "machine_id": "56b2276c",
+  "project": "mindcontext-mgmt",
+  "progress": {
+    "source": "openspec",
+    "change": "add-progress-tracker",
+    "tasks_done": 77,
+    "tasks_total": 89
+  },
+  "context": {
+    "current_task": "Working on add-progress-tracker",
+    "status": "in_progress",
+    "notes": [],
+    "next": []
+  },
+  "recent_commits": [
+    "feat: publish mindcontext-cli@0.1.0 to npm",
+    "refactor(template): restructure for root-level GitHub Pages serving",
+    "chore: update focus.json and submodule refs",
+    "docs(openspec): add clarify-core-cli-ownership proposal",
+    "docs(openspec): archive seamless-tdd-integration change"
+  ]
+}
